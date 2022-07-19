@@ -114,7 +114,7 @@ const Portfolio = () => {
               </RedContainer>
             </LinkDiv>
           </Boxes>
-          <Link href="/projects">
+          <Link href="https://github.com/keniossai">
             <More>
               <ButtonContent>
                 View more projects
