@@ -11,7 +11,6 @@ export default class Find extends Component {
         <Title>
           Find <br /> Me
         </Title>
-        <Topic>Also write something</Topic>
         <SocialBox>
           <a href="https://github.com/keniossai" className="gitHub">
             <Content>

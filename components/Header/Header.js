@@ -1,6 +1,7 @@
 import { Nav, Links, MobileIcon, NavItem, NavMenu} from './Headerstyles'
 import {FaBars} from 'react-icons/fa'
 import Link from 'next/link'
+import AnimatedText from 'react-animated-text-content'
 
 const  Header = ({toggle}) => {
   
@@ -16,7 +17,7 @@ const  Header = ({toggle}) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <Link href='/resume'>Resume</Link>
+                        <Link className='anchor' href='/resume'>Resume</Link>
                     </NavItem>
                     <NavItem>
                         <Link href='/service'>Contact</Link>

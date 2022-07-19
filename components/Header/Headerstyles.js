@@ -97,12 +97,25 @@ export const NavItem = styled.li`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    position: relative;
 
-    &:active{
-        border-bottom: 3px solid #01bf71;
+    ::after{
+        content: "";
+        position: absolute;
+        background: #fff;
+        width: 0;
+        height: 5px;
+        bottom: -6px;
+        left: 0;
+        right: unset;
+        transition: width .3s linear;
     }
 
-    :hover{
-        color: #e83151;
+    :hover::after{
+        width: 55px;
+        left: 0;
+        right: unset;
+        margin-left: 20px;
+        overflow: hidden;
     }
 `

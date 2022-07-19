@@ -1,12 +1,27 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
 import Image from 'next/image'
 import { LandingWork, FadeInTitle, Title, Boxes, Links, BlueContainer, RedContainer, DarkblueContainer, BoxContent, BoxTitle, BoxTitleLink, BoxtitleSub, LinkDiv, BoxImage, More, ButtonContent, } from './ProjectStyles'
 import Link from 'next/link'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
-export default class Portfolio extends Component {
-
+const Portfolio = () => {
   
-  render() {
+  
+    useEffect(() => {
+      Aos.init({
+        disable: false, 
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99,
+        duration: 3000,
+
+      });
+    }, [])
     return (
       <LandingWork>
           <FadeInTitle>
@@ -17,8 +32,8 @@ export default class Portfolio extends Component {
               </Title>
           </FadeInTitle>
           <Boxes>
-            <LinkDiv>
-              <Links>
+            <LinkDiv data-aos="slide-right">
+              <Links >
                 <BoxContent>
                 <BoxTitle>
                     iEnergy Africa
@@ -38,7 +53,7 @@ export default class Portfolio extends Component {
                 </Link> 
               </Links>
             </LinkDiv>
-            <LinkDiv>
+            <LinkDiv data-aos="slide-left">
               <BlueContainer>
                 <BoxContent>
                   <BoxTitle>
@@ -58,7 +73,7 @@ export default class Portfolio extends Component {
                 </Link>
               </BlueContainer>
             </LinkDiv>
-            <LinkDiv>
+            <LinkDiv data-aos="slide-down">
               <DarkblueContainer>
                 <BoxContent>
                   <BoxTitle>
@@ -78,7 +93,7 @@ export default class Portfolio extends Component {
                 </Link> 
               </DarkblueContainer>
             </LinkDiv>
-            <LinkDiv>
+            <LinkDiv className='red-container' data-aos="slide-up">
               <RedContainer>
                 <BoxContent>
                 <BoxTitle>
@@ -99,7 +114,7 @@ export default class Portfolio extends Component {
               </RedContainer>
             </LinkDiv>
           </Boxes>
-          <Link href="https://github.com/keniossai">
+          <Link href="/projects">
             <More>
               <ButtonContent>
                 View more projects
@@ -108,5 +123,7 @@ export default class Portfolio extends Component {
           </Link>
       </LandingWork>
     )
-  }
+  
 }
+
+export default Portfolio

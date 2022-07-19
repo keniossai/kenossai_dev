@@ -37,6 +37,14 @@ export const Boxes = styled.div`
     @media screen and (max-width: 600px){
         grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
     }
+
+    .red-container{
+        margin-top: -130px;
+
+        @media screen and (max-width: 968px){
+        margin-top: 0;
+    }
+    }
 `
 
 export const LinkDiv = styled.div`
@@ -46,6 +54,7 @@ export const LinkDiv = styled.div`
     visibility: visible;
     transition: opacity .6s ease-out,transform 1.2s ease-out,-webkit-transform 1.2s ease-out;
     will-change: opacity,visibility;
+    overflow: hidden;
 `
 
 export const Links = styled.a`
@@ -100,7 +109,7 @@ export const DarkblueContainer = styled.a`
 `
 export const RedContainer = styled.a`
     background: #e83151;
-    margin-top: -130px;
+    /* margin-top: -130px; */
     height: 710px;
     position: relative;
     overflow: hidden;
@@ -113,9 +122,9 @@ export const RedContainer = styled.a`
         padding-left: 10px;
     }
 
-    @media screen and (max-width: 968px){
+    /* @media screen and (max-width: 968px){
         margin-top: 0;
-    }
+    } */
 `
 
 
@@ -151,7 +160,8 @@ export const BoxtitleSub = styled.div`
         padding-right: 0;
     }
     @media screen and (max-width: 522px){
-        font-size: 30px;
+        font-size: 25px;
+        width: 250px;
     }
     
 `

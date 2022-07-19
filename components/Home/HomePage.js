@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import { Landing, Section, Sub, LandingMain, TextCon, LinkDiv, Link, Dash, SideScroll, Project, LandingMain2 } from './HomeStyles'
+import { Landing, Section, Sub, LandingMain, TextCon, LinkDiv, Link, Dash, SideScroll, Project } from './HomeStyles'
 import Portfolio from '../Work/Portfolio'
 import Find from '../Work/Findme/Find'
 import Contact from '../Contact/Contact'
+import AnimatedText from 'react-animated-text-content';
+import LandingMain2 from '../LandingMain2'
 
 export default class HomePage extends Component {
   render() {
@@ -13,55 +15,28 @@ export default class HomePage extends Component {
                 Fullstack Developer
             </Sub>
             <LandingMain>
-                <TextCon>
-                    <span className='text'>I</span>
-                    <span className='text'> </span>
-                    <span className='text'>a</span>
-                    <span className='text'>m</span> 
-                    <span className='text'> </span>
-                    <span className='text'>a</span>
-                    <span className='text'>l</span>
-                    <span className='text'>w</span>
-                    <span className='text'>a</span>
-                    <span className='text'>y</span>
-                    <span className='text'>s</span>
-                    <span className='text'> </span>
-                    <span className='text'>d</span>
-                    <span className='text'>e</span>
-                    <span className='text'>l</span>
-                    <span className='text'>i</span>
-                    <span className='text'>g</span>
-                    <span className='text'>h</span>
-                    <span className='text'>t</span>
-                    <span className='text'>e</span>
-                    <span className='text'>d</span>
-                    <span className='text'> </span>
-                    <br />
-                    <span className='text'>w</span>
-                    <span className='text'>i</span>
-                    <span className='text'>t</span>
-                    <span className='text'>h</span>
-                    <span className='text'> </span>
-                    <span className='text'>m</span>
-                    <span className='text'>y</span>
-                    <span className='text'> </span>
-                    <span className='text'>c</span>
-                    <span className='text'>r</span>
-                    <span className='text'>e</span>
-                    <span className='text'>a</span>
-                    <span className='text'>t</span>
-                    <span className='text'>i</span>
-                    <span className='text'>v</span>
-                    <span className='text'>i</span>
-                    <span className='text'>t</span>
-                    <span className='text'>y.</span>
-                </TextCon>
+                <AnimatedText 
+                  type="chars" // animate words or chars
+                  animation={{
+                    x: '200px',
+                    y: '-20px',
+                    scale: 1.1,
+                    ease: 'ease-in-out',
+                  }}
+                  animationType="bounce"
+                  interval={0.08}
+                  duration={0.9}
+                  tag="span"
+                  className="animated-paragraph"
+                  includeWhiteSpaces
+                  threshold={0.1}
+                  rootMargin="20%"
+                >
+                  I am always delighted
+                    with my creativity.
+                </AnimatedText>
             </LandingMain>
-            <LandingMain2>
-            I am always delighted 
-            <br />
-            with my creativity.
-            </LandingMain2>
+            <LandingMain2 />
             <LinkDiv>
                 <Link>
                     About Me
