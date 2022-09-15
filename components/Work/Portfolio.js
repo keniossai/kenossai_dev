@@ -99,7 +99,7 @@ const Portfolio = () => {
                 <a href="https://www.figma.com/proto/Menz1msiJgPH3FwGkA9QfW/L'Oreal-Lotion?page-id=0%3A1&node-id=1%3A3&viewport=482%2C419%2C0.25&scaling=scale-down&starting-point-node-id=1%3A3" rel="noreferrer" target="_blank" className='feature-item'>
                     <Card className="purple">
                         <span>UI Design</span>
-                        <h3 className='bold'>L'Oreal Lotion Mobile Application</h3>
+                        <h3 className='bold'>LOreal Lotion Mobile Application</h3>
                         <Image src="/loreal.png" width={700} height={500} alt='iEnergy Africa' />
                     </Card>
                 </a>
@@ -231,7 +231,7 @@ const FeatureBody = styled.div`
 `
  const FadeInTitle = styled.div`
     opacity: 1;
-    -webkit-transform: none;
+    /* -webkit-transform: none; */
     visibility: visible;
     transition: opacity .6s ease-out,transform 1.2s ease-out,-webkit-transform 1.2s ease-out;
     will-change: opacity,visibility;
