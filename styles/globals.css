@@ -7,6 +7,34 @@ body {
   background: #0b0b0f;
 }
 
+.red{
+  background-color: #81007F;
+}
+.brown{
+  background-color: #9D6246;
+}
+.white{
+  background-color: #093094;
+}
+.ash{
+  background-color: #F32925;
+}
+.light{
+  background-color: #048ac9;
+}
+.green{
+  background-color: #0c9560;
+}
+.blue{
+  background-color: #60737e;
+}
+.purple{
+  background-color: #9a2b03;
+}
+.ecom{
+  background-color: #1d4860;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -56,6 +84,7 @@ a {
         .bar-three {
             transform: rotate(-45deg);
         }
+
 
 .transition{
   overflow: hidden;

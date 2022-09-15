@@ -2885,7 +2885,7 @@
     "ansi-styles" "^5.0.0"
     "react-is" "^18.0.0"
 
-"prop-types@^15.8.1":
+"prop-types@^15.6.0", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -2914,13 +2914,18 @@
     "styled-components" "^5.3.3"
     "uuid" "^8.3.2"
 
-"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@<18.0.0", "react-dom@>= 16.8.0", "react-dom@>=16.11.0 <=18.0.1", "react-dom@>=16.8 || ^17.0.0 || ^18.0.0", "react-dom@18.2.0":
+"react-dom@^16.0.0", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@<18.0.0", "react-dom@>= 16.8.0", "react-dom@>=16.11.0 <=18.0.1", "react-dom@>=16.8 || ^17.0.0 || ^18.0.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
+
+"react-driftjs@^1.2.2":
+  "integrity" "sha512-rQKRVJ5JaI4bTSHoDpvDORyUnWpLr/EZoeZLbdm2J5oqcdCbnOT+iKZJkzYskQXU4sg4X9XppdDfQ7Z/o0pErw=="
+  "resolved" "https://registry.npmjs.org/react-driftjs/-/react-driftjs-1.2.2.tgz"
+  "version" "1.2.2"
 
 "react-icons@^4.4.0":
   "integrity" "sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg=="
@@ -2942,7 +2947,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   "version" "18.2.0"
 
-"react@*", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@<18.0.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.11.0 <=18.0.1", "react@>=16.8 || ^17.0.0 || ^18.0.0", "react@18.2.0":
+"react@*", "react@^16.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@<18.0.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.11.0 <=18.0.1", "react@>=16.8 || ^17.0.0 || ^18.0.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"

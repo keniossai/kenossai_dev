@@ -14,22 +14,10 @@ export default function Resume() {
 						</div>
 						<Desc>
 							<p>
-								I am a Solution-driven Developer, adept at contributing to a
-								highly collaborative work environment, finding solutions, and
-								determining customer satisfaction. My core competences lies with
-								developing consumer-focused web applications using, JavaScript,
-								ReactJs, NodeJs, NextJs, Python, and Laravel. Built products for
-								application users for over 6 years, meeting the highest
-								standards for web/mobile app development, user experience, best
-								practices, and speed. Designed and developed web applications
-								across multiple APIs, third-party integrations, and databases.
+							I am a Solution-driven Developer, adept at contributing to a highly collaborative work environment, finding solutions, and determining customer satisfaction. My core competencies lie in developing consumer-focused web applications using, JavaScript, ReactJs, NextJs, and Laravel. Built products for application users for over 5+ years, meeting the highest standards for web/mobile app development, user experience, best practices, and speed. Designed and developed web applications across multiple APIs, third-party integrations, and databases. Assuring high code quality through unit tests and adherence to software development best practices like Clean Code, SOLID and code reviews.
 							</p>
 							<p>
-								I&lsquo;ve also been a part of different teams, both on-site and
-								remote acting in the lead and member capacities. My vast
-								experience has equipped me with the ability to be culturally
-								aware of diverse communities, whilst honing both technical and
-								soft skills like communication, teamwork and adaptability.
+							I've also been a part of different teams, both on-site and remote acting in the lead and member capacities. My vast experience has equipped me with the ability to be culturally aware of diverse communities, both technical and soft skills like communication, teamwork, and adaptability.
 							</p>
 						</Desc>
 						<a
@@ -41,6 +29,29 @@ export default function Resume() {
 						</a>
 					</AboutTop>
 					<AboutBottom>
+					<Experience>
+							<div className='stackTitle'>
+								<span>KEY SKILLS</span>
+							</div>
+							<Stacks>
+								<div className='company'>
+									<div className='stackName'>Design</div>
+									<ul className='stacks'>
+										<li>UI Design</li>
+										<li>Web Design</li>
+										<li>Application Design</li>
+									</ul>
+								</div>
+								<div className='company'>
+									<div className='stackName'>Tools</div>
+									<ul className='stacks'>
+										<li>Figma</li>
+										<li>Adobe XD</li>
+										<li>Adobe Photoshop</li>
+									</ul>
+								</div>
+							</Stacks>
+						</Experience>
 						<Experience>
 							<div className='stackTitle'>
 								<span>Technical Skills</span>
@@ -51,24 +62,19 @@ export default function Resume() {
 									<ul className='stacks'>
 										<li>JavaScript</li>
 										<li>React</li>
-										<li>Redux</li>
-										<li>Context API</li>
 										<li>Laravel</li>
 										<li>NextJs</li>
-										<li>CSS/SASS</li>
-										<li>CSS-in-JS</li>
-										<li>Firebase</li>
 									</ul>
 								</div>
 								<div className='company'>
 									<div className='stackName'>Familiar</div>
 									<ul className='stacks'>
-										<li>Express</li>
-										<li>NodeJs</li>
-										<li>Python</li>
-										<li>Java</li>
+										<li>Redux</li>
+										<li>ContextAPI</li>
+										<li>Version control system: GIT</li>
 										<li>MySql</li>
 										<li>MongoDB</li>
+										<li>Firebase</li>
 									</ul>
 								</div>
 							</Stacks>
@@ -79,130 +85,106 @@ export default function Resume() {
 							</div>
 							<Stacks>
 								<div className='company'>
-									<div className='name'>
+									<h2 className='name'>
+										Insurance Meets Tech (Contract) <br /> (Lead Web Developer)
+									</h2>
+									<div className='year'>May 2022 - Present</div>
+									<ul className='stacks'>
+										<li>
+											I implemented rich user experiences by creating 30+ new features utilizing HTML/JS/CSS and Laravel.
+										</li>
+										<li>
+											I helped utilized and implemented attractive, responsive, and mobile-friendly design contexts and elements.
+										</li>
+										<li>
+											I used JavaScript, HTML, and CSS, to translate User and business needs into functional frontend architecture.
+										</li>
+										<li>
+											I also created informative and effective documentation, reports, and inline comments on 100% of code/work accomplished.
+										</li>
+										<li>
+											I designed, developed, and tested UI for web applications
+										</li>
+										<li>
+											Database integration using MySQL with query optimisation skills
+										</li>
+									</ul>
+								</div>
+								<div className='company'>
+									<h2 className='name'>
 										Modion Communications <br /> (Web Application Developer)
-									</div>
+									</h2>
 									<div className='year'>Sept 2021 - Present</div>
 									<ul className='stacks'>
 										<li>
-											Developing 3+ web applications by using responsive UI
-											element via React concept for smooth performance,
+											I Developed 4+ web applications by using responsive UI elements via React concept for smooth performance,
 										</li>
 										<li>
-											Building user interface code of 7+ web application using
-											React.js and JavaScript based on the approved design,
+											I helped build user interface design web application using React.js and JavaScript based on the approved design
 										</li>
 										<li>
-											Documenting Node.js processes, including database schemas,
-											as well as preparing reports,
+											Wrote well-documented code with Laravel processes, including database schemas, as well as preparing reports
 										</li>
 										<li>
-											Ensuring Optimal performance of the central database and
-											responsiveness to front-end requests,
+											Ensured Optimal performance of the central database and responsiveness to front-end requests
 										</li>
 										<li>
-											Developed User Interface components and implementing them
-											following well-known React.js workflows,
+											I developed User Interface components and implemented them following well-known React.js workflows
 										</li>
 										<li>
-											Developed high-performance Interface by writing testable,
-											reusable, and efficient code,
+											Developed high-performance Interface by writing testable, reusable, and efficient code.
 										</li>
 										<li>
-											Built high-performance, reusable and adaptive UI
-											components,
+											I helped built high-performance, reusable, and adaptive UI components.
 										</li>
 										<li>
-											Implemented flexible User Interface with Frontend
-											technology such as HTML, CSS/SASS, and JavaScript
-											application frameworks.
+											Implemented flexible User Interface with Front-end technology such as HTML, CSS/SASS, and JavaScript application frameworks.
 										</li>
 									</ul>
 								</div>
 								<div className='company'>
-									<div className='name'>Full-stack Developer</div>
-									<div className='year'>June 2020 - Aug 2021</div>
+									<h2 className='name'>LSETF(Lagos State Employment Trust Fund Summit) <br /> (Lead Web Developer)</h2> 
+									<div className='year'>Jan 2022 - April 2022</div>
 									<ul className='stacks'>
 										<li>
-											Determined the design and layouts for 6 applications using
-											HTML, CSS, and JavaScript with 100% accuracy,
+											I engaged the Management Team to prioritize needs and strategized for the Lagos State Employment Trust Fund (LSETF) Project.
 										</li>
 										<li>
-											Collaborated with a team of 4 professionals and design the
-											front-end architecture with the UI concept of 10 websites,{' '}
+											I designed and developed the LSETF platform in readiness for the summit which increased the platform's visibility exponentially.
 										</li>
 										<li>
-											Installed and configured hypertext transfer protocol
-											(HTTP) servers and associated operating systems,
+											Saddled with the responsibility of Overseeing the Smooth running operation of the LSETF platform throughout the duration of the summit, recording a 100% success rate.
 										</li>
 										<li>
-											Created web models or prototypes that include physical,
-											interface, logical, or data models,
+											I also maintained understanding of current web technologies or programming practices through continuing education, reading, or participation in professional conferences, workshops, or groups.
 										</li>
-										<li>
-											Provided clear and detailed descriptions of website
-											specifications such as product features, activities,
-											software, communication protocols, programming languages,
-											and operating systems software and hardware,
-										</li>
-										<li>
-											Conducted Requirement gathering and Validation as a part
-											of collaboration for high profile external web app that
-											helped to address important UI/UX parts of the system&lsquo;s
-											user interface before the active Development Phase,
-										</li>
-										<li>
-											Captured the best development practices in a way of a
-											common condign standard team of 3 developers resulting in
-											improvement of code stability and shared components
-											reusability,
-										</li>
-										<li>
-											Researched, documented and selected alternatives for Web
-											Architecture or Technologies,
-										</li>
-										<li>
-											Documented solution architecture for the high-profile
-											progress web application standardizing the way of
-											development amongst different projects and mitigating code
-											duplicity.
-										</li>
+										
 									</ul>
 								</div>
 								<div className='company'>
-									<div className='name'>
+									<h2 className='name'>
 										Key Solutions <br />
 										(Senior Web Developer)
-									</div>
-									<div className='year'>Sept 2021 - Present</div>
+									</h2>
+									<div className='year'>April 2019 – May 2020</div>
 									<ul className='stacks'>
 										<li>
-											Implemented rich user experiences by creating 30+ new
-											features utilizing HTML/JS/CSS,
+											Determined the design and layouts for 6 applications using HTML, CSS, and JavaScript with 100% accuracy.
 										</li>
 										<li>
-											Wrote 47 automated tests to raise code quality as part of
-											the development process,
+											I helped utilized and implemented 7+ attractive, responsive, and mobile-friendly website contexts and elements.
 										</li>
 										<li>
-											Utilized and implemented 7+ attractive, responsive, and
-											mobile-friendly website contexts and elements,
+											I used JavaScript, HTML, and CSS, to translate User and business needs into functional frontend design.
 										</li>
 										<li>
-											Used JavaScript, HTML, and CSS, to translate User and
-											business needs into functional frontend design,
+											I also created informative and effective documentation, reports, and inline comments on 100% of code/work accomplished.
 										</li>
 										<li>
-											Created informative and effective documentation, reports,
-											and inline comments on 100% of code/work accomplished,
+											Evaluated new methodologies and technologies aimed at improving the quality, reliability, and performance of product development systems and processes.
 										</li>
 										<li>
-											Designed, developed, and tested UI for web applications,
-										</li>
-										<li>
-											Evaluated new methodologies and technologies aimed at
-											improving the quality, reliability, and performance of
-											product development systems and processes.
+										•	I also helped conducted Requirement gathering and Validation as a part of collaboration for high profile external web app that helped to address important UI/UX parts of the system's user interface before the active Development Phase.
 										</li>
 									</ul>
 								</div>
